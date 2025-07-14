@@ -493,7 +493,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--contrast-color);
-  background: linear-gradient(45deg, var(--background-color) 0%, color-mix(in srgb, var(--surface-color), transparent 10%) 100%), center center no-repeat;
+  background: linear-gradient(45deg, #181232 0%, color-mix(in srgb, #181232, transparent 10%) 100%), center center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding-bottom: 50px;
@@ -537,7 +537,7 @@ h6 {
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: #f4f4f4;
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -556,38 +556,44 @@ h6 {
 
 .footer .footer-links {
   margin-bottom: 30px;
+  color: #f4f4f4;
 }
 
 .footer .footer-links ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  color: #f4f4f4;
 }
 
 .footer .footer-links ul i {
   padding-right: 2px;
   font-size: 12px;
   line-height: 0;
+  color: #f4f4f4;
 }
 
 .footer .footer-links ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  color: #f4f4f4;
 }
 
 .footer .footer-links ul li:first-child {
   padding-top: 0;
+  color: #f4f4f4;
 }
 
 .footer .footer-links ul a {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
   display: inline-block;
   line-height: 1;
+  color: #f4f4f4;
 }
 
 .footer .footer-links ul a:hover {
   color: var(--accent-color);
+  
 }
 
 .footer .footer-contact p {
@@ -1388,8 +1394,7 @@ section,
 .banner img {
   width: 1366px;
   height: auto;
-  display:flex;
- 
+  background: url("assets/img/mi-banner.jpg") center center no-repeat
 }
 
 /*--------------------------------------------------------------
